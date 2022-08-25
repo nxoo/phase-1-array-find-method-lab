@@ -1,11 +1,11 @@
 const record = [
-  { year: "2015", result: "W"},
-  { year: "2014", result: "N/A"},
-  { year: "2013", result: "L"},
+    { year: "2015", result: "W"},
+    { year: "2014", result: "N/A"},
+    { year: "2013", result: "L"},
 ]
 
 function superbowlWin(record) {
-    for (let x=0; x<record.length; x++) { 
+    for (let x=0; x<record.length; x++) {
         if(record[x].result === 'W') {
             return record[x].year
         }
